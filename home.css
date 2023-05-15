@@ -1,23 +1,31 @@
-
 nav {
     display: flex;
     text-align: center;
     justify-content: space-around;
-}
-.logo{
-   width:100px ;
-   height: 100px ;
+    left: 60px;
 }
 
-header{
-    position: absolute;
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+header {
+    /* position; absolute; */
     width: 1519px;
     height: 150px;
     top: -8px;
-    left:-8px ;
+    left: -8px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4PX rgb(0, 0, 0, 0.5);
 }
-.href {
- 
+
+a {
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font size: x-large;
+    text-decoration: none;
+    color: green;
+}
+p{
+    
 }
