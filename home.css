@@ -26,15 +26,26 @@ a {
     text-decoration: none;
     color: green;
 }
-p{
 
+p {}
 
+body {
+    width: 1440;
 }
-body{
 
+#phar {
+    width: 1480px;
+    ;
+    height: 400px;
+    ;
 }
-
-#phar{
-    width:1480px; ;
-    height: 400px; ;
+.textão{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.textodois{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
