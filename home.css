@@ -1,0 +1,10 @@
+css
+.header {
+    background-image: url(foto\ fundo\ 1.jpg);
+}
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
