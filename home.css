@@ -3,6 +3,8 @@ nav {
     text-align: center;
     justify-content: space-around;
     left: 60px;
+    
+    
 }
 
 .logo {
@@ -26,6 +28,7 @@ a {
     font-size: 2rem;
     text-decoration: none;
     color: green;
+    
 }
 
 
@@ -65,6 +68,7 @@ h1{
     
 }
 
+
 @font-face {
     font-family:"fredokaone" ;
     src: url(fontes/FredokaOne-Regular.ttf);
@@ -76,4 +80,38 @@ h1{
 @font-face {
     font-family: "inter";
     src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+
+remedio:hover{
+background-color: #045903;
+transition: 0.3s;
+}
+
+.d1{
+    width: 300px;
+    height: 300px;
+    border-radius: 360px;
+    text-align: center;
+}
+.d1:hover{
+    background-color: #045903;
+    transition: 0.8ms;
+
+}
+
+.remedios{
+    text-align: center;
+}
+
+.r3{
+   padding-top: 8px;
+}
+
+.r1{
+    top: 8px;
+}
+.ls{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
