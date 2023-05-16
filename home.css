@@ -16,18 +16,18 @@ header {
     height: 150px;
     top: -8px;
     left: -8px;
+    right: -8px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4PX rgb(0, 0, 0, 0.5);
 }
 
 a {
     font-family: Impact, Haettenschweiler, sans-serif;
-    font size: x-large;
+    font-size: 2rem;
     text-decoration: none;
     color: green;
 }
 
-p {}
 
 body {
     width: 1440;
@@ -39,13 +39,33 @@ body {
     height: 400px;
     ;
 }
-.textão{
+.textao{
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
-}
-.textodois{
-    display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    margin: 90px;
+
+}
+.jk{
+  justify-items: auto ;
+  width: 500px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size:larger;
+  
+}
+.yu{
+ justify-items: auto  ;
+ width: 500px;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size:larger;
+}
+
+h1{
+    font-family:"fredokaone";
+    
+}
+
+@font-face {
+    font-family:"fredokaone" ;
+    src: url(fontes/FredokaOne-Regular.ttf);
 }
