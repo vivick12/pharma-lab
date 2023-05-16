@@ -22,7 +22,7 @@ header {
 }
 
 a {
-    font-family: Impact, Haettenschweiler, sans-serif;
+    font-family:"inter";
     font-size: 2rem;
     text-decoration: none;
     color: green;
@@ -72,4 +72,8 @@ h1{
 @font-face {
     font-family:"abhayalibre";
     src: url(fontes/AbhayaLibre-Bold.ttf);
+}
+@font-face {
+    font-family: "inter";
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
 }
